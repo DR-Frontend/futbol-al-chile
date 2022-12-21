@@ -110,7 +110,7 @@ form, input, label, textarea, select, button {
   height: 100%;
   display: grid;
   align-items: center;
-  grid-template-columns: 80% 1fr;
+  grid-template-columns: 85% 1fr;
   justify-items: center;
 }
 .header__link {
