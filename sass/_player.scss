@@ -1,0 +1,46 @@
+.player{
+   grid-area: pl;
+   text-align: center;
+   color: var(--fac--white);
+   overflow-y: scroll;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 1px dashed var(--fac--white-modal);
+   padding: 10px 0;
+   
+   &__wrapp{
+      width: 90%;
+      margin: auto;
+   }
+   &__splash{
+      max-width: 90%;
+      margin: auto;
+   }
+   &__title{
+      margin-top: 10px;
+      font-family: 'bold';
+      font-size: 1rem;
+      text-transform: uppercase;
+   }
+   &__subtitle{
+      margin-top: 10px;
+      font-family: 'italic';
+      font-size: .8rem;
+      text-transform: uppercase;
+   }
+   audio{
+      margin-top: 20px;
+      width: 90%;
+      height: 40px;
+   }
+
+   @media (min-width: 768px) {
+      &{
+         padding-top: 10px;
+         border-bottom: none;
+         border-left: 1px dashed var(--fac--white-modal);
+      }
+   }
+   
+}

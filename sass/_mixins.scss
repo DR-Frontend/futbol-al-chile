@@ -1,0 +1,8 @@
+@mixin bloque{
+   padding: 20px;
+   border-radius: 10px;
+   backdrop-filter: blur(10px);
+   border: 2px solid var(--fac--white-modal);
+   background: linear-gradient(var(--fac--black-modal), var(--fac--black));
+   box-shadow: 0px 20px 15px -10px rgba(0,0,0,0.75);
+}

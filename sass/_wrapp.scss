@@ -1,0 +1,28 @@
+.wrapp{
+   width: 100vw;
+   height: 100vh;
+   background-color: var(--fac--red);
+
+   display: grid;
+   grid-template-rows: 80px 1fr auto;
+   grid-template-areas: 
+   "he"
+   "pl"
+   "ma";
+
+   @media(min-width: 768px) {
+      &{
+         grid-template-columns: repeat(6, 1fr);
+         grid-template-rows: 10% repeat(4, 1fr) 10%;
+         grid-template-areas: 
+         "he he he he he he"
+         "ba ba ba ba pl pl"
+         "ba ba ba ba pl pl"
+         "ba ba ba ba pl pl"
+         "ba ba ba ba pl pl"
+         "ba ba ba ba pl pl"
+         "ba ba ba ba pl pl"
+         "ma ma ma ma ma ma";
+      }
+   }
+}

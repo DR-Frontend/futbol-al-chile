@@ -1,0 +1,40 @@
+.matches{
+   grid-area: ma;
+   text-align: center;
+   color: var(--fac--white);
+   padding: 10px 0;
+   overflow-y: hidden;
+
+   h2{
+      font-family: 'italic';
+   }
+
+   &__container{
+      display: flex;
+      gap: 10px;
+      padding: 0 10px;
+   }
+
+   .match{
+      background-color: var(--fac--white-modal);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      border-radius: 10px;
+      padding: 5px;
+      
+      &__img{
+         max-width: none;
+         width: 30px;
+      }
+   }
+
+   @media (min-width: 768px) {
+      &{
+         border-top: 1px dashed var(--fac--white-modal);
+      }
+      &__container{
+         justify-content: center;
+      }
+   }
+}

@@ -1,0 +1,79 @@
+:root{
+   //--fac--red: #92000A;
+   --fac--red: #700007;
+   --fac--white: #eaeaea;
+   --fac--black: #323232;
+   --fac--red-modal: #92000ae6;
+   --fac--white-modal: #eaeaea4d;
+   --fac--black-modal: #00000080;
+}
+@font-face {
+   font-family: 'bold';
+   src: url('../assets/font/Mohave-Bold.ttf');
+}
+@font-face {
+   font-family: 'italic';
+   src: url('../assets/font/Mohave-LightItalic.ttf');
+}
+@font-face {
+   font-family: 'regular';
+   src: url('../assets/font/Mohave-Light.ttf');
+}
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+   vertical-align: baseline;
+}
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+   font-size: 16px;
+   font-family: sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-text-size-adjust: 100%;
+   text-rendering: optimizeLegibility;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+img, picture, video, iframe, figure{
+   max-width: 100%;
+   width: 100%;
+   display: block;
+   height: auto;
+}
+a{
+   display: block;
+}
+li{
+   list-style: none;
+}
+svg{
+   width: 100%;
+   display: block;
+   fill: currentColor;
+}
+h1, h2, h3, h4, h5, h6,
+p, a, b, u, i, em,
+span, strong, blockquote{
+   font-size: 1rem;
+   font-weight: inherit;
+   font-style: inherit;
+   text-decoration: none;
+   color: inherit;
+}
+form, input, label, textarea, select, button{
+   font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+   hyphens: auto;
+
+}
