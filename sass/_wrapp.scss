@@ -7,8 +7,9 @@
    grid-template-rows: 80px 1fr auto;
    grid-template-areas: 
    "he"
+   "ma"
    "pl"
-   "ma";
+   "mt";
 
    @media(min-width: 768px) {
       &{
@@ -16,13 +17,13 @@
          grid-template-rows: 10% repeat(4, 1fr) 10%;
          grid-template-areas: 
          "he he he he he he"
-         "ba ba ba ba pl pl"
-         "ba ba ba ba pl pl"
-         "ba ba ba ba pl pl"
-         "ba ba ba ba pl pl"
-         "ba ba ba ba pl pl"
-         "ba ba ba ba pl pl"
-         "ma ma ma ma ma ma";
+         "ma ma ma ma pl pl"
+         "ma ma ma ma pl pl"
+         "ma ma ma ma pl pl"
+         "ma ma ma ma pl pl"
+         "ma ma ma ma pl pl"
+         "ma ma ma ma pl pl"
+         "mt mt mt mt mt mt";
       }
    }
 }

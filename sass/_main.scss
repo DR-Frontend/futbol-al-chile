@@ -1,0 +1,13 @@
+.main{
+   grid-area: ma;
+   width: 100%;
+   border-bottom: 1px dashed var(--fac--white-modal);
+
+   &__container{
+      width: 80%;
+      background-color: tomato;
+      margin: 10px auto;
+      padding: 10px;
+   }
+   
+}
