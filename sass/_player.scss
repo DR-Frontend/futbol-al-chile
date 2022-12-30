@@ -1,16 +1,17 @@
 .player{
    grid-area: pl;
-   text-align: center;
-   color: var(--fac--white);
-   overflow-y: scroll;
+   padding: 10px 0;
    display: flex;
    align-items: center;
    justify-content: center;
+   color: var(--fac--white);
+   text-align: center;
+   overflow-y: scroll;
    border-bottom: 1px dashed var(--fac--white-modal);
-   padding: 10px 0;
+   background-color: var(--fac--red);
    
    &__wrapp{
-      width: 90%;
+      width: 80%;
       margin: auto;
    }
    &__splash{

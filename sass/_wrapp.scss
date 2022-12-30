@@ -4,7 +4,7 @@
    background-color: var(--fac--red);
 
    display: grid;
-   grid-template-rows: 80px 1fr auto;
+   grid-template-rows: 80px 50% 1fr auto;
    grid-template-areas: 
    "he"
    "ma"

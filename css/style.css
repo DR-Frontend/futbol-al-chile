@@ -91,7 +91,7 @@ form, input, label, textarea, select, button {
   height: 100vh;
   background-color: var(--fac--red);
   display: grid;
-  grid-template-rows: 80px 1fr auto;
+  grid-template-rows: 80px 50% 1fr auto;
   grid-template-areas: "he" "ma" "pl" "mt";
 }
 @media (min-width: 768px) {
@@ -190,29 +190,32 @@ form, input, label, textarea, select, button {
 
 .main {
   grid-area: ma;
-  width: 100%;
+  padding: 5% 0;
   border-bottom: 1px dashed var(--fac--white-modal);
 }
 .main__container {
   width: 80%;
-  background-color: tomato;
-  margin: 10px auto;
+  height: 100%;
+  overflow-x: scroll;
+  margin: auto;
   padding: 10px;
+  background-color: tomato;
 }
 
 .player {
   grid-area: pl;
-  text-align: center;
-  color: var(--fac--white);
-  overflow-y: scroll;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--fac--white);
+  text-align: center;
+  overflow-y: scroll;
   border-bottom: 1px dashed var(--fac--white-modal);
-  padding: 10px 0;
+  background-color: var(--fac--red);
 }
 .player__wrapp {
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 .player__splash {
@@ -250,6 +253,7 @@ form, input, label, textarea, select, button {
   color: var(--fac--white);
   padding: 10px 0;
   overflow-y: hidden;
+  background-color: var(--fac--red);
 }
 .matches h2 {
   font-family: "italic";
