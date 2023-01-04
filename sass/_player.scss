@@ -1,5 +1,25 @@
 .player{
    grid-area: pl;
+   text-align: center;
+   border-top: 1px dashed var(--fac--white-modal);
+
+   &__splash,
+   &__subtitle{
+      display: none;
+   }
+   &__title{
+      margin-top: 10px;
+      font-family: 'bold';
+      font-size: 1rem;
+      color: var(--fac--white);
+      text-transform: uppercase;
+   }
+   audio{
+      margin-top: 10px;
+      width: 90%;
+      height: 40px;
+   }
+   /*
    padding: 10px 0;
    display: flex;
    align-items: center;
@@ -18,23 +38,12 @@
       max-width: 90%;
       margin: auto;
    }
-   &__title{
-      margin-top: 10px;
-      font-family: 'bold';
-      font-size: 1rem;
-      text-transform: uppercase;
-   }
    &__subtitle{
       margin-top: 10px;
       font-family: 'italic';
       font-size: .8rem;
       text-transform: uppercase;
-   }
-   audio{
-      margin-top: 20px;
-      width: 90%;
-      height: 40px;
-   }
+   }*/
 
    @media (min-width: 768px) {
       &{

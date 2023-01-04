@@ -4,12 +4,12 @@
    background-color: var(--fac--red);
 
    display: grid;
-   grid-template-rows: 80px 50% 1fr auto;
+   grid-template-rows: 80px 55vh auto 1fr;
    grid-template-areas: 
    "he"
    "ma"
-   "pl"
-   "mt";
+   "mt"
+   "pl";
 
    @media(min-width: 768px) {
       &{
