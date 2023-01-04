@@ -44,8 +44,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: hidden;
 }
 
 img, picture, video, iframe, figure {
@@ -91,7 +90,7 @@ form, input, label, textarea, select, button {
   height: 100vh;
   background-color: var(--fac--red);
   display: grid;
-  grid-template-rows: 80px 55vh auto auto;
+  grid-template-rows: 80px 55vh auto 1fr;
   grid-template-areas: "he" "ma" "mt" "pl";
 }
 @media (min-width: 768px) {

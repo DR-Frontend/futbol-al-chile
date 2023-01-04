@@ -41,8 +41,7 @@ body{
    -moz-osx-font-smoothing: grayscale;
    -webkit-text-size-adjust: 100%;
    text-rendering: optimizeLegibility;
-   overflow-x: hidden;
-   overflow-y: scroll;
+   overflow: hidden;
 }
 img, picture, video, iframe, figure{
    max-width: 100%;
