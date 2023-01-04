@@ -91,7 +91,7 @@ form, input, label, textarea, select, button {
   height: 100vh;
   background-color: var(--fac--red);
   display: grid;
-  grid-template-rows: 80px 55vh auto 1fr;
+  grid-template-rows: 80px 55vh auto auto;
   grid-template-areas: "he" "ma" "mt" "pl";
 }
 @media (min-width: 768px) {
