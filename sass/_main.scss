@@ -11,5 +11,9 @@
       padding: 10px;
       background-color: tomato;
    }
+
+   @media (min-width: 768px) {
+      border-bottom: none;
+   }
    
 }
