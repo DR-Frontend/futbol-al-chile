@@ -264,6 +264,9 @@ form, input, label, textarea, select, button {
 }
 .matches h2 {
   font-family: "italic";
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 .matches__container {
   display: flex;
