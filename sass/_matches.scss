@@ -2,9 +2,10 @@
    grid-area: mt;
    text-align: center;
    color: var(--fac--white);
-   padding: 10px 0;
+   padding: 5px 0;
    overflow-y: hidden;
    background-color: var(--fac--red);
+   border-bottom: 1px dashed var(--fac--white-modal);
 
    h2{
       font-family: 'italic';
@@ -16,7 +17,6 @@
    &__container{
       display: flex;
       gap: 10px;
-      padding: 0 10px;
    }
 
    .match{
@@ -33,10 +33,7 @@
       }
    }
 
-   @media (min-width: 768px) {
-      &{
-         border-top: 1px dashed var(--fac--white-modal);
-      }
+   @media (min-width: 1024px) {
       &__container{
          justify-content: center;
       }

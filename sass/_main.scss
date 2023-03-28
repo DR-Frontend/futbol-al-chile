@@ -4,12 +4,15 @@
    border-bottom: 1px dashed var(--fac--white-modal);
 
    &__container{
-      width: 80%;
+      width: 90%;
       height: 95%;
       overflow-x: scroll;
       margin: auto;
       padding: 10px;
-      background-color: tomato;
+   }
+   &__container{
+      border-radius: 15px;
+      box-shadow: 0 0 15px 0 rgba(0 0 0 / .5);
    }
 
    @media (min-width: 768px) {

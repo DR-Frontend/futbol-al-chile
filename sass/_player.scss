@@ -26,6 +26,9 @@
       width: 90%;
       height: 40px;
    }
+   audio::-webkit-media-controls-panel {
+      background-color: var(--fac--black-modal);
+    }
 
    @media (min-width: 768px) {
       &{
@@ -45,8 +48,11 @@
          font-size: 1.5rem;
       }
       &__wrapp{
-         width: 80%;
+         width: 85%;
          margin: auto;
+         padding: 15px 5px;
+         border-radius: 15px;
+         box-shadow: 0 0 15px 0 rgb(0 0 0 / .5);
       }
       &__splash{
          max-width: 90%;
